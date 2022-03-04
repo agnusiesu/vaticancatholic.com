@@ -1,0 +1,52 @@
+@media print {
+	@page {
+		overflow: visible;
+	}
+	html {
+		height: auto;
+	}
+	body {
+		background: white;
+		color: black;
+		height: auto;
+	}
+	h1 {
+		text-align: center;
+		color: black;
+		font-size: 22px !important; 
+	}
+	h1 a {
+		text-decoration: none;
+		color: black;
+		font-size: 22px !important; 
+	}
+	p {
+		line-height: 1.2 !important;
+	}
+	#main-header, #sidebar, #main-footer, #disqus_thread, #cat-wrapper {
+		display: none;
+	}
+	.mhfm-edit, .recent-comments, .read-more-recent-comments, .top-page-link, .wrapper-cat, .mhfm-print, .dsq-brlink, .shortcode-video-title, .shortcode-video-caption, .youtube, .wrap-content-news-items, .recent-comments, .icons-bottom, .read-more-comments {
+		display: none;
+	}
+	footer div {
+		display: none;
+	}
+	.wrapper-header-content-comments {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.wrapper-header-content {
+		box-shadow: 0px 0px 0px 0px white;
+		border: 0px;
+		padding: 30px;
+		margin: 0px;
+	}
+	.for-more-posts {
+		display: none;
+	}
+	.mhfm-content {
+		font-size: 15px;
+	}
+}

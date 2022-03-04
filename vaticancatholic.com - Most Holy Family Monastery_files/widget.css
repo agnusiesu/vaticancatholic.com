@@ -1,0 +1,99 @@
+.widget ul {
+	margin-bottom: 10px;
+}
+.widget li {
+	background-color: #D2D2B1;
+	padding: 5px;
+	margin-bottom: 3px;
+	font-size: 16px;
+}
+.widget li a {
+	text-decoration: none;
+	color: #006;
+	line-height: 1.2;
+}
+
+.widget li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.widget, .widget-home {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.widget-title {
+	width: 100%;
+	color: white;
+	padding: 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.widget select {
+	font-size: 17px;
+}
+.widget {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*###########*/
+/* TAG CLOUD */
+/*###########*/
+.tagcloud {
+  background-color: rgba(249, 249, 227, 0.6);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.tagcloud a {
+  text-decoration: none;
+  color: #006;
+}
+
+.tagcloud a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#wgs_widget-4 {
+  margin-bottom: 30px;
+}
+
+/*###############*/
+/* END TAG CLOUD */
+/*###############*/
+/* ################ */
+/* ### ARCHIVES ### */
+/* ################ */
+.widget_archive {
+  margin-bottom: 20px;
+}
+
+.widget_archive label {
+  display: none;
+}
+
+.widget_archive select {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  padding-top: 7px;
+  font-family: Georgia, "New Century Schoolbook", "Times New Roman", Times, Serif, serif;
+}
+
+/* ################ */
+/* ################ */
+
+.wrapper-widget-mobile {
+	display: none;
+	width: 100%;
+	margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+	.wrapper-widget-mobile {
+		display: block;
+	}
+}

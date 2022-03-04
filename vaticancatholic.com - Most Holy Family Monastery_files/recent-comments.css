@@ -1,0 +1,128 @@
+.comments-title {
+	text-align: center;
+	padding: 0 0 7px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2575b9;
+	margin-bottom: 10px;
+}
+.recent-comments {
+	margin-top: 10px;
+}
+.recent-comments .textwidget, #recentcomments .textwidget {
+	padding: 0px;
+}
+.recent-comments .dsq-widget-item, #recentcomments .dsq-widget-item {
+	padding: 10px;
+	background: #f7f7f7;
+	box-shadow: 0 0 7px inset #5c7582;
+}
+.recent-comments li.dsq-widget-item, #recentcomments li.dsq-widget-item {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.recent-comments .textwidget {
+	font-family: Arial, sans-serif;
+}
+.dsq-widget ul.dsq-widget-list {
+	text-align: justify !important;
+}
+.dsq-widget-list li {
+	border: 2px solid #F4F4EF
+}
+.recent-comments .comments-result a {
+	color: black;
+}
+
+/* ########################## */
+/* ### READ MORE COMMENTS ### */
+/* ########################## */
+.read-more-comments
+{
+text-align: center;
+height: 40px;
+width: 100%;
+box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+border: 1px solid black;
+margin-top: 5px;
+padding-top: 12px;
+cursor: pointer;
+color: white;
+font-weight: bold;
+background: rgb(37,117,185);
+background: linear-gradient(135deg, rgba(30,120,198,1) 7%, rgba(29,105,170,1) 7%, rgba(40,129,205,1) 67%, rgba(46,159,255,1) 67%, rgba(37,117,185,1) 100%);  
+}
+.read-more-comments:hover {
+	color: #fee8bd;
+	background: rgb(26,104,172);
+	background: linear-gradient(135deg, rgba(26,104,172,1) 7%, rgba(20,85,142,1) 7%, rgba(31,110,177,1) 67%, rgba(36,132,213,1) 67%, rgba(19,78,129,1) 100%); 
+}
+.read-more-comments-2, .read-less-comments
+{
+text-align: center;
+display: none;
+height: 40px;
+width: 100%;
+background-color: #069;
+box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+border: 1px solid black;
+margin-top: 5px;
+padding-top: 12px;
+cursor: pointer;
+color: white;
+font-weight: bold;
+}
+/* ########################## */
+/* ########################## */
+
+
+/* ############################# */
+/* ### RECENT COMMENTS PANEL ### */
+/* ############################# */
+#wrapper-header .recent-comment-headline
+{
+font-size: 15px;
+color: #333;
+}
+#wrapper-header .recent-comment-headline:hover
+{
+color: #036;
+}
+#wrapper-header a.comments-content
+{
+font-size: 15px;
+color: #039;
+text-decoration: none;
+}
+#wrapper-header a.comments-content:hover
+{
+color: #900;
+text-decoration: underline;
+}
+/* ############################# */
+/* ############################# */
+
+
+/* ############################### */
+/* ### RECENT COMMENTS CONTENT ### */
+/* ############################### */
+#main-content .recent-comment-headline
+{
+color: black;
+}
+#main-content .recent-comment-headline:hover
+{
+color: #036;
+}
+#main-content a.comments-content
+{
+color: #036;
+text-decoration: none;
+}
+#main-content a.comments-content:hover
+{
+color: #900;
+text-decoration: underline;
+}
+/* ############################### */
+/* ############################### */

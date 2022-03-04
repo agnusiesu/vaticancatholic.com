@@ -1,0 +1,269 @@
+.wrapper-archive-content {
+	display: flex; display: -webkit-flex;
+	flex-direction: row; -webkit-flex-direction: row;
+	justify-content: space-between; -webkit-justify-content: space-between;
+	margin: 3px;
+	background-color: #B7AB6A;
+}
+.archive-title {
+	padding: 7px 0;
+	margin: 0 0 10px 0;
+	width: 100%;
+	border: #fff double 5px;
+	box-shadow: 0 4px 7px #777;
+	background-color: #dcdcdc;
+	background: linear-gradient(0deg, rgb(208, 203, 180) 0%, rgb(255, 255, 255) 25%, rgb(255, 255, 255) 75%, rgb(208, 203, 180) 100%)
+}
+.archive-title h1 {
+	font-family: Copperplate, Copperplate Gothic Light, serif;
+	text-align: center;
+	font-size: 22px;
+}
+.wrapper-archive-page {
+	display: flex; display: -webkit-flex;
+	flex-direction: column; -webkit-flex-direction: column;
+	justify-content: flex-start; -webkit-justify-content: flex-start;
+	align-items: flex-start; -webkit-align-items: flex-start;
+	width: 80.5%;
+	background-color: #F1F0E2;
+	box-shadow: 1px 0 7px inset #202020;
+}
+@media screen and (max-width: 1000px) {
+	.wrapper-archive-page {
+		width: 100%;
+	}
+	.archive-title {
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
+	}
+}
+/* ### NEWER AND OLDER ### */
+.wrapper-archive-posts-link
+{
+display: flex; display: -webkit-flex;
+flex-direction: row; -webkit-flex-direction: row;
+justify-content: center; -webkit-justify-content: center;
+align-items: stretch; -webkit-align-items: stretch;
+margin-bottom: 10px;
+text-align: center;
+margin: auto;
+height: 28px;
+margin-top: 10px;
+}
+.previous-posts-link, .next-posts-link, .archive-page-number
+{
+background-color: #304C60;
+color: white;
+padding: 5px;
+font-weight: bold;
+}
+.previous-posts-link a, .next-posts-link a
+{
+text-decoration: none;
+color: white;
+}
+.next-posts-link
+{
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.previous-posts-link
+{
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.next-posts-link:hover
+{
+background-color: #6C889C;
+}
+.previous-posts-link:hover
+{
+background-color: #6C889C;
+}
+.archive-page-number
+{
+margin-right: 3px;
+margin-left: 3px;
+}
+
+
+/*#################*/
+/* CATEGORIES LIST */
+/*#################*/
+.entry-meta
+{
+margin-top: 10px;
+display: flex; display: -webkit-flex;
+justify-content: center; -webkit-justify-content: center;
+flex-direction: row; -webkit-flex-direction: row;
+align-items: center; -webkit-align-items: center;
+}
+.entry-meta a
+{
+text-decoration: none;
+color: black;
+font-weight: bold;
+padding-bottom: 2px;
+}
+#cat-wrapper
+{
+display: flex; display: -webkit-flex;
+justify-content: center; -webkit-justify-content: center;
+align-items: center; -webkit-align-items: center;
+flex-wrap: wrap; -webkit-flex-wrap: wrap;
+background-color: #306883;
+color: white;
+padding: 5px;
+box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+}
+.cat-list {
+	margin: 5px;
+	color: white;
+}
+.cat-bloc
+{
+width: 30px;
+height: 50px;
+z-index: 10;
+background-color: white;
+}
+.cat-bloc-after
+{
+position: relative;
+width: 10px;
+height: 25px;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 10px / 30px;
+z-index: 1;
+margin-left: -11px;
+box-shadow: 4px  4px 5px 0px rgba(0, 0, 0, 0.7),
+           -4px  4px 5px 0px rgba(0, 0, 0, 0.7),
+            4px -4px 5px 0px rgba(0, 0, 0, 0.7),
+           -4px -4px 5px 0px rgba(0, 0, 0, 0.7);
+}
+.cat-bloc-before
+{
+  position: relative;
+  width: 10px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px / 30px;
+  z-index: 2;
+  margin-right: -11px;
+  box-shadow: 4px  4px 5px 0px rgba(0, 0, 0, 0.7),
+             -4px  4px 5px 0px rgba(0, 0, 0, 0.7),
+              4px -4px 5px 0px rgba(0, 0, 0, 0.7),
+             -4px -4px 5px 0px rgba(0, 0, 0, 0.7);
+}
+.intro-archive {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	border: #444 solid 1px;
+	box-shadow: 3px 3px 10px #444;
+	transition: all .15s ease-in-out;
+	background: #FBFBFB;
+	margin: 7px 20px 20px 20px;
+	text-align: justify;
+	padding: 20px;
+}
+.intro-archive h2 {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 22px;
+}
+
+.category-related {
+	margin: 0px 10px 0px 10px;
+}
+.category-related .related-article {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	border: #444 solid 1px;
+	box-shadow: 3px 3px 10px #444;
+	transition: all .15s ease-in-out;
+	background: #FBFBFB;
+}
+
+
+/*#############################*/
+/* CATEGORY NEW UPDATES BUTTON*/
+/*#############################*/
+a.new-update-link {
+	color: white;
+}
+.new-updates-btn {
+	width: 350px;
+	margin: 0 auto;
+	padding: 15px 0;
+	background: #355f84;
+	box-shadow: 1px 1px 5px #262626;
+	text-align: center;
+}
+.new-updates-btn:hover {
+	background: #1e71ba;
+	box-shadow: 1px 1px 2px #000
+}
+
+.new-updates-btn a {
+  padding: 15px 30px;
+}
+
+/* e-exchanges category */
+.category-item {
+	font-family: Verdana,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;	
+	margin: 5px 20px;
+	border: #444 solid 1px;
+	box-shadow: 3px 3px 10px #444;
+	background: #FBFBFB;
+	padding: 25px;
+}
+.category-item a {
+	text-decoration: underline;
+}
+.category-item a:hover {
+	color: #900;
+}
+.category-item h1 a {
+	font-family: Verdana,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 27px;
+	text-decoration: none;
+}
+.category-item h1 a:hover {
+	color: #0050e7;
+}
+.wrapper-archive-page .pagination  {
+	margin: 30px;
+}
+.wrapper-archive-page .pagination a, span.dots {
+	inline-display: block;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background-color: #e5ddb4;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 7px;
+}
+.wrapper-archive-page .pagination a:hover {
+	text-decoration: none;
+	background-color: #b7ab6a;
+	box-shadow: 1px 1px 4px #202020;
+}
+.wrapper-archive-page .pagination span.current {
+	background-color: #b7ab6a;
+	padding: 15px;
+	margin: 5px;
+  font-size: 20px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 4px #202020;
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper-archive-page .pagination  {
+	margin: 10px;
+	}
+	.wrapper-archive-page .pagination a, span.dots {
+	margin: 0;
+	line-height: 4em;
+	}
+}

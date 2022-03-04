@@ -1,0 +1,119 @@
+/*-----------------------------------*/
+/* ALGOLIA							 */
+/*-----------------------------------*/
+
+
+
+
+/*-----------------------------------*/
+/* SEARCH FORM						 */
+/*-----------------------------------*/
+/* IN HEADER */
+header .wrap-search {
+	padding: 7px;
+	background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+}
+
+/* IN SIDEBAR */
+.search {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+
+	align-items: center;
+	 -webkit-align-items: center;
+	-ms-align-items: center;
+
+	justify-content: center; 
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+}
+.search input[type=text] {
+    height: 32px;
+    font-size: 16px;
+    background-color: rgb(250, 250, 250);
+    border-style: solid;
+    border: 1px solid rgb(120, 120, 120);
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px 0 0 5px;
+}
+.search input[type=text]:focus {
+    outline: none;
+}
+.search form {
+    text-align: center;
+}
+.search button {
+    height: 33px;
+	width: 47px;
+    font-size: 16px;
+    border-style: solid;
+    border: 1px solid rgb(24, 60, 92);
+    border-left: 0px;
+    color: rgb(200, 200, 200);
+	background-color: rgb(49, 91, 135);
+	cursor: pointer;	
+    border-radius: 0 5px 5px 0;
+}
+
+/* BELOW POST */
+.search-below-post {
+	padding: 20px 0px 20px 0px;
+}
+
+/*-----------------------------------*/
+/* RELEVANSSI						 */
+/*-----------------------------------*/
+.search-wrap {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.search-wrap tr {
+    border-bottom: 1px solid grey;
+}
+.search-wrap .fimg {
+	width: 150px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.search-wrap img {
+	width: 100%;
+	border-radius: 5px;
+}
+.search-results .title {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+.excerpt_part {
+    font-size: 16px;
+}
+.search-results .content {
+	padding-bottom: 15px;
+}
+.search-results .date {
+    font-size: 15px;
+    color: grey;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+/*
+.pagination {
+    margin: 10px 0px 10px 0px;
+}
+.pagination a {
+    padding: 2px;
+    font-size: 30px;
+}
+*/
+@media screen and (max-width: 700px) {
+	.search-wrap .fimg {
+		display: none;
+    }
+}

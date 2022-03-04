@@ -1,0 +1,18 @@
+#disqus_thread {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.disqus-cat-below {
+	width: 100%;
+	padding: 0 22px 10px 22px;
+}
+.disqus-comment-box {
+	width: 100%; 
+	padding: 20px; 
+	border: #444 solid 1px;
+	box-shadow: 3px 3px 10px #444;
+	background: rgb(239, 242, 245); 
+	background: linear-gradient(135deg, rgb(249, 252, 255) 3%, rgb(238, 243, 249) 12%, rgb(249, 252, 255) 12%, rgb(239, 242, 245) 65%, rgb(255, 255, 255) 82%, rgb(237, 243, 249) 82%, rgb(243, 246, 249) 100%);
+}
+.dsq-widget-user {
+	display: none;
+}

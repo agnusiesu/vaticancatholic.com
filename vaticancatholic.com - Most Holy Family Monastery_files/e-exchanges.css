@@ -1,0 +1,110 @@
+.wrapper-exchanges {
+	width: 100%;
+}
+.last-exchanges {
+	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+	margin-bottom: 5px;
+	background-color: white;
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border: 1px solid black;
+	width: 100%;
+}
+.last-exchanges-title
+{
+margin-bottom: 5px;
+}
+.last-exchanges-title h2
+{
+font-family: Arial, Verdana, serif;
+}
+.last-exchanges-title h2 a
+{
+font-size: 27px;
+}
+.last-exchanges-title a
+{
+color: #000;
+text-decoration: none;
+}
+.last-exchanges-title a:hover
+{
+color: #036;
+text-decoration: underline;
+}
+@media screen and (max-width: 1200px) {
+	.last-exchanges {
+		border: 0px solid black;
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
+		margin-bottom: 0px;
+	}
+	.wrapper-exchanges {
+		border-bottom: 2px solid #404040;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px)
+{
+  .exchanges-disclaimer
+  {
+  display: none;
+  }
+  .wrapper-exchanges .exchanges-question
+  {
+  display: none;
+  }
+  .wrapper-exchanges .wrap-answer
+  {
+  display: none;
+  }
+  .wrapper-exchanges .mhfm-content
+  {
+  display: none;
+  }
+  .last-exchanges
+  {
+  display: flex; display: -webkit-flex;
+  justify-content: center; -webkit-justify-content: center;
+  flex-direction: column; -webkit-flex-direction: column;
+  align-items: center; -webkit-align-items: center;
+  }
+  .last-exchanges-title h2
+  {
+  text-align: center;
+  display: flex; display: -webkit-flex;
+  justify-content: center; -webkit-justify-content: center;
+  align-items: center; -webkit-align-items: center;
+  }
+}
+/* ################### */
+/* ### END CONTENT ### */
+/* ################### */
+
+
+/* ######################### */
+/* ### ARROW FOR MOBILES ### */
+/* ######################### */
+.wrapper-title-arrow
+{
+display: flex; display: -webkit-flex;
+flex-direction: row; -webkit-flex-direction: row;
+align-items: center; -webkit-align-items: center;
+}
+.arrow-mobiles
+{
+display: none;
+font-size: 50px;
+margin-left: 5px;
+}
+@media screen and (max-width: 480px)
+{
+  .arrow-mobiles
+  {
+  display: block;
+  }
+}
+/* ############################# */
+/* ### END ARROW FOR MOBILES ### */
+/* ############################# */

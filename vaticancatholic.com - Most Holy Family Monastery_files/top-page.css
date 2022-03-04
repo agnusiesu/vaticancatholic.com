@@ -1,0 +1,32 @@
+.wrapper-top-page
+{
+position: fixed;
+bottom: 30px;
+right: 50%;
+display: none;
+border: 2px solid black;
+border-radius: 20px;
+height: 40px;
+width: 40px;
+padding-top: 7px;
+background-color: black;
+opacity: 0.6;
+z-index: 999999999999999;
+}
+.top-page p
+{
+font-size: 30px;
+color: white;
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, Serif, serif;
+}
+.top-page-link
+{
+text-decoration: none;
+cursor: pointer;
+}
+.wrapper-top-page:hover
+{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}

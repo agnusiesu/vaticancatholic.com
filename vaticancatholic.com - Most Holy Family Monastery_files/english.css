@@ -1,0 +1,91 @@
+body, #wrapper, #main-header, #wrapper-home-content, .wrapper-youtube-share-resp, #navigation-menu, .nav-menu-resp hr {
+  background-color: #B7AB6A;
+}
+
+.video-more, .article-more {
+  background-color: #204B38;
+}
+
+.video-more:hover {
+  background-color: #1F6043;
+}
+
+.article-more:hover {
+  background-color: #1F6043;
+}
+
+.wrapper-youtube-share-resp {
+  width: 100%;
+}
+
+.quotations-responsive {
+  width: 97%;
+}
+
+.menu-lang li:hover {
+  background-color: #FFFFCC;
+}
+
+.menu-lang li:hover a {
+  color: black;
+}
+
+.menu-lang li li:hover a {
+  color: black;
+}
+
+.menu-lang li li li:hover a {
+  color: black;
+}
+
+.home-daily-quotations-title {
+  background-color: #1E1E1E;
+}
+
+.sub-title-content {
+  background-color: #1F6043;
+}
+
+.quotations-print {
+  background-color: rgba(203, 203, 152, 0.3);
+}
+
+.title-fast-links, #other-languages-title, .widget-title {
+  background-color: #1E1E1E;
+}
+
+.title-fast-links p {
+  font-size: 15px;
+}
+
+.widget-page li {
+  background-color: #D2D2B1;
+}
+
+.widget-page li a, .tagcloud a {
+  color: #1E1E1E;
+}
+
+.widget-page li a:hover {
+  color: #1D3B7A;
+}
+
+.tagcloud a:hover {
+  color: #1D3B7A;
+}
+
+.youtube-title a {
+  font-size: 15px;
+}
+.quotation {
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+	background-color: #F4F4EF;
+	margin: 20px 40px 20px 40px;
+    padding: 10px 30px 10px 30px;
+}
+@media screen and (max-width: 1000px) {
+    .quotation {
+    	margin: 20px 10px 20px 10px;
+        padding: 10px 10px 10px 10px;
+    }
+}

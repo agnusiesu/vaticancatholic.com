@@ -1,0 +1,27 @@
+.main-footer {
+	color: #B7AB6A;
+	padding: 20px;
+	background-color: #272727;
+}
+.main-footer .logo {
+	text-align: center;
+}
+.main-footer .logo img {
+	width: 300px;
+}
+.main-footer a {
+	color: white;
+	text-decoration: none;
+}
+.main-footer a:hover {
+	text-decoration: underline;
+}
+.main-footer .last, .main-footer .address {
+	text-align: center;
+}
+.main-footer p {
+	line-height: 1.2;
+}
+.main-footer .address {
+	color: white;
+}

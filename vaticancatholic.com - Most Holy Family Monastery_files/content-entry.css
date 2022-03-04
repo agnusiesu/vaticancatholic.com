@@ -1,0 +1,214 @@
+/* ############# */
+/* ### PRINT ### */
+/* ############# */
+
+/* ################# */
+/* ### END PRINT ### */
+/* ################# */
+
+
+/* ############### */
+/* ### CAPTION ### */
+/* ############### */
+.thumb-post
+{
+max-width: 80%;
+text-align: center;
+margin: auto;
+}
+.thumb-post img
+{
+max-width: 100%;
+}
+/* ################### */
+/* ### END CAPTION ### */
+/* ################### */
+
+
+/* ################ */
+/* ### QUESTION ### */
+/* ################ */
+.exchanges-question
+{
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.exchanges-question blockquote
+{
+display:block;
+background: #F4F4EF;
+padding: 15px 20px 15px 45px;
+margin: 40px;
+position: relative;
+font-size: 18px;
+line-height: 1.2;
+color: #404040;
+box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 800px) {
+	.exchanges-question blockquote {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.exchanges-question blockquote {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.exchanges-question blockquote::before
+{
+content: "\201C";
+font-family: Verdana, serif;
+font-size: 60px;
+font-weight: bold;
+color: #777;
+position: absolute;
+left: 10px;
+top: 5px;
+}
+.exchanges-question blockquote::after
+{
+content: "";
+}
+.exchanges-question blockquote a
+{
+text-decoration: none;
+cursor: pointer;
+padding: 0 3px;
+color: #036;
+}
+.exchanges-question blockquote a:hover
+{
+color: #900;
+}
+.exchanges-question blockquote em
+{
+font-style: italic;
+}
+/* #################### */
+/* ### END QUESTION ### */
+/* #################### */
+
+
+/* ##################### */
+/* ### MHFM RESPONSE ### */
+/* ##################### */
+.mhfm-response
+{
+background-color: #DFDEBB;
+width: 90px;
+padding: 5px;
+margin-bottom: 15px;
+margin-top: 35px;
+box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+text-align: center;
+font-weight: bold;
+line-height: 28px;
+font-size: 18px;
+font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.content-notes {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px inset #b6b6b6;
+overflow: auto;
+height: 200px;
+}
+.content-notes p, .content-notes div p {
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.wrap-answer
+{
+background: -webkit-linear-gradient(left, rgba(241,240,226,1), rgba(241,240,226,0)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, rgba(241,240,226,1), rgba(241,240,226,0)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, rgba(241,240,226,1), rgba(241,240,226,0)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, rgba(241,240,226,1), rgba(241,240,226,0)); /* Standard syntax (must be last) */
+}
+/* ######################### */
+/* ### END MHFM RESPONSE ### */
+/* ######################### */
+
+
+/* ################# */
+/* ### READ MORE ### */
+/* ################# */
+a.more-link
+{
+text-decoration: none;
+color: white;
+font-weight: bold;
+background-color: #304C60;
+padding: 12px;
+border-radius: 5px;
+margin-left: 15px;
+}
+a.more-link:hover
+{
+background-color: #069;
+}
+/* ##################### */
+/* ### END READ MORE ### */
+/* ##################### */
+
+
+/* QUOTATION BOX */
+.quotation
+{
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+	background-color: #F4F4EF;
+	margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+}
+
+.quotation-blue {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    background-color: #EDF5FF;
+}
+
+.quotation-red {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    background-color: #E6C1C1;
+}
+
+.quotation-green {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    background-color: #DFEEDE;
+}
+
+.quotation-gold {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    background-color: #ece7cc;
+}
+
+.quotation-darkblue {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    background-color: #122644;
+    color: #fffce6;
+}
+
+.quotation-darkgold {
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    background-color: #202020;
+    margin: 20px 40px 20px 40px;
+    padding: 15px 30px 5px 30px;
+    color: #F5EAB9;
+}

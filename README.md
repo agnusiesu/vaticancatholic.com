@@ -1,3 +1,3 @@
 # vaticancatholic.com
 
-Vatican Catholic Website Templates
+vaticancatholic.com Snapshot 1
